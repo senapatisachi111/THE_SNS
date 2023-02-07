@@ -72,6 +72,9 @@ SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 
+# Command
+COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
+
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
 DOWNLOAD_TEXT_URL = "https://t.me/THE_SNS"
