@@ -41,9 +41,9 @@
 
 ### Optional Variables
 
-* `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
+* `PICS`: Telegraph links of images to show in start message.(Multiple images can be used separated by space.)
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/GreyMattersBot/Advance-EvaMaria/blob/main/info.py) for more
+* Check [info.py](https://github.com/senapatisachi111/THE_SNS/blob/main/info.py) for more
 
 ## EXTRA FEATURES
 
