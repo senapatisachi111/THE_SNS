@@ -24,8 +24,8 @@ python3 bot.py
 </p>
 </details>
 
- for Search in PM feature.
+## CREDIT
  - Thanks To All Everyone In This Journey.
 
 ## WARNING
-<p>It's for my personal use only. </p>
+<p>×× It's for my personal use only. </p>
