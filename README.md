@@ -8,17 +8,6 @@
 - ⟴ Custom Texts (About, Help, Stats,More..)
 - ⟴ Custom URL Buttons (Updates channel, Add To Group, Force Sub, More...)
 
-
-
-
-<p align="center">
-  <img src="https://github.com/GreyMattersBot/url-auto-delete-shortener-bot/blob/main/assets/IMG_20220105_010453-removebg-preview.png" alt="GreyMatter's Bot Logo">
-</p>
-<h1 align="center">
-  <b>GreyMatter's Bot</b>
-</h1>
-
-
 ## Features
 
 - [x] 2GB+ Files Now Support
@@ -38,9 +27,6 @@
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
 - [x] Spelling Check Feature
 - [x] File Store
-## Variables
-
-Read [this](https://telegram.dog/GreyMatter_Bots) before you start messing up with your edits.
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -121,20 +107,9 @@ broadcast - to broadcast a message to all Eva Maria users
 batch - to create link for multiple posts
 link - to create link for one post
 ```
-## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/greymatters_bots_discussion)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/greymatter_bots)
 
 ## Thanks to 
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
  - Thanks To [Subinps](https://github.com/subinps) for Original EvaMaria.
  - Thanks To [RushikeshNarule](https://github.com/rushikeshnarule) for Search in PM feature.
- - Thanks To All Everyone In This Journey
-
-### Note
-
-you a Developer.
-Fork the repo and edit as per your needs.
-
-## Inspiration
-🙃
+ - Thanks To All Everyone In This Journey.
