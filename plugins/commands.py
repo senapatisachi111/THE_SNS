@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🤡 𝙼𝚘𝚟𝚒𝚎𝚜', callback_data='movies'),
-            InlineKeyboardButton('🤞 𝚂𝚝𝚊𝚝𝚞𝚜',callback_data='stats')
+            InlineKeyboardButton('❤️‍🔥 𝚂𝙽𝚂',url=f'https://t.me/ABOUT_SNS')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('🎉 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
@@ -67,7 +67,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Our Main Channel", url="t.me/+lM2prfjyQnRmMDll"
+                    "🤖 Join Our Main Channel", url="t.me/MoviesNSeriesSNS"
                 )
             ]
         ]
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🤡 𝙼𝚘𝚟𝚒𝚎𝚜', callback_data='movies'),
-            InlineKeyboardButton('🤞 𝚂𝚝𝚊𝚝𝚞𝚜',callback_data='stats')
+            InlineKeyboardButton('❤️‍🔥 𝚂𝙽𝚂',url=f'https://t.me/ABOUT_SNS')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('🎉 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
