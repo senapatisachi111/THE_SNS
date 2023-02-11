@@ -744,7 +744,7 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"<b>💐 𝗛𝗲𝗿𝗲 𝗶𝘀 𝘄𝗵𝗮𝘁 𝗜 𝗳𝗼𝘂𝗻𝗱 𝗮𝘀 𝗽𝗲𝗿 𝘆𝗼𝘂𝗿 𝗾𝘂𝗲𝗿𝘆: 𓊈 {search} 𓊉\n\n🎭 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗯𝘆 : {message.from_user.mention} \n\n❇️ 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 : 『 @SNSxTG 』</b>"
     if imdb and imdb.get('poster'):
         try:
-            hehe =  await message.reply_photo(photo=https://telegra.ph/file/8aee724312b9c9089719d.jpg, caption=cap[:1024],
+            hehe =  await message.reply_photo(photo="https://telegra.ph/file/8aee724312b9c9089719d.jpg", caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
