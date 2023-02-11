@@ -427,7 +427,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🤡 𝙼𝚘𝚟𝚒𝚎𝚜', callback_data='movies'),
-            InlineKeyboardButton('🤞 𝚂𝚝𝚊𝚝𝚞𝚜',callback_data='stats')
+            InlineKeyboardButton('❤️‍🔥 𝚂𝙽𝚂',url=f'https://t.me/ABOUT_SNS')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('🎉 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
@@ -448,6 +448,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝚊𝚌𝚔𝚞𝚙 𝙶𝚛𝚘𝚞𝚙', url=f'https://t.me/+hS8TPhJcRvtjMWVl')
         ], [
             InlineKeyboardButton('🏠 H𝙾𝙼𝙴 🏠', callback_data='start'),
+
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -464,7 +465,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙴𝚡𝚝𝚛𝚊 𝙼𝚘𝚍𝚜', callback_data='extra')
         ], [
             InlineKeyboardButton('🏠 H𝙾𝙼𝙴 🏠', callback_data='start'),
-        ]]
+            InlineKeyboardButton('🤞 𝚂𝚝𝚊𝚝𝚞𝚜🤞', callback_data='stats')
+          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
