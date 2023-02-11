@@ -424,13 +424,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/c/GreyMattersBot'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='{script.HOME_BUTTONURL_UPDATES')
-        ], [
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('🤡 𝙼𝚘𝚟𝚒𝚎𝚜', callback_data='movies'),
+            InlineKeyboardButton('🤞 𝚂𝚝𝚊𝚝𝚞𝚜',callback_data='stats')
+            ],[
+            InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
+            InlineKeyboardButton('🎉 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -439,13 +439,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
         await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
+    elif query.data == "movies":
+        buttons = [[
+            InlineKeyboardButton('𝙼𝚊𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕', url=f'https://t.me/+4cU3CekJJ6o2ZWY1'),
+            InlineKeyboardButton('𝙼𝚊𝚒𝚗 𝙶𝚛𝚘𝚞𝚙', url=f'https://t.me/+7j7EXi8FELQ2MjU9')
+        ], [
+            InlineKeyboardButton('𝙼𝚘𝚟𝚒𝚎𝚜 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url=f'https://t.me/+EOtaPGpS-SRhNjRl'),
+            InlineKeyboardButton('𝙱𝚊𝚌𝚔𝚞𝚙 𝙶𝚛𝚘𝚞𝚙', url=f'https://t.me/+hS8TPhJcRvtjMWVl')
+        ], [
+            InlineKeyboardButton('🏠 H𝙾𝙼𝙴 🏠', callback_data='start'),
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.HELP_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter')
+            InlineKeyboardButton('𝙼𝚊𝚗𝚞𝚊𝚕 𝙵𝚒𝚕𝚝𝚎𝚛', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝙰𝚞𝚝𝚘 𝙵𝚒𝚕𝚝𝚎𝚛', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct'),
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰 𝙼𝙾D𝚂', callback_data='extra')
+            InlineKeyboardButton('𝙲𝚘𝚗𝚗𝚎𝚌𝚝𝚒𝚘𝚗𝚜', callback_data='coct'),
+            InlineKeyboardButton('𝙴𝚡𝚝𝚛𝚊 𝙼𝚘𝚍𝚜', callback_data='extra')
         ], [
             InlineKeyboardButton('🏠 H𝙾𝙼𝙴 🏠', callback_data='start'),
         ]]
