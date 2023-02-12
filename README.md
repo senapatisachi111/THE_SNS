@@ -28,4 +28,4 @@ python3 bot.py
  - Thanks To All Everyone In This Journey.
 
 ## WARNING
-<p>● 😆 Why are you wasting your time,Mahn !</p>
+<p> 😆 Why are you wasting your time,Mahn!</p>
